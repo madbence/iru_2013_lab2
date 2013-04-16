@@ -1,0 +1,7 @@
+dn: cn=Mekk Elek,ou=people,dc=tmit,dc=bme,dc=hu
+objectClass: inetOrgPerson
+cn: Mekk Elek
+ou: office
+uid: mekkelek
+sn: Budapest
+userPassword: NETPUNK

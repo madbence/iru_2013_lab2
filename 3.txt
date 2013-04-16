@@ -1,0 +1,4 @@
+ldapsearch -D "cn=admin,dc=tmit,dc=bme,dc=hu" -w rootpass -b "ou=people,dc=tmit,dc=bme,dc=hu" "objectClass=inetOrgPerson"
+ldapsearch -D "cn=admin,dc=tmit,dc=bme,dc=hu" -w rootpass -b "ou=people,dc=tmit,dc=bme,dc=hu" "objectClass=*" dn description
+ldapsearch -LLL -D "cn=admin,dc=tmit,dc=bme,dc=hu" -w rootpass -b "dc=tmit,dc=bme,dc=hu" "description=*" dn description
+
